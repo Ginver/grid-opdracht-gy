@@ -1,1 +1,15 @@
-/*Maak hier jouw CSS!*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 190px 100px auto 50px;
+    grid-template-areas:
+    "A C C"
+    "B C C"
+    "B E D"
+    "B E ."
+    "F F F";
+    row-gap: 16px;
+    column-gap: 16px;
+    background-color: bisque;
+    color: black;
+}
