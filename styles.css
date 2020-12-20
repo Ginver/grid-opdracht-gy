@@ -21,3 +21,21 @@
     background-color: brown;
     border: 2px solid hsl(289, 13%, 32%);
 }
+#vak-a {
+    grid-area: A;
+}
+#vak-b {
+    grid-area: B;
+}
+#vak-c {
+    grid-area: C;
+}
+#vak-d {
+    grid-area: D;
+}
+#vak-e {
+    grid-area: E;
+}
+#vak-f {
+    grid-area: F;
+}
