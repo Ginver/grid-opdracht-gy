@@ -13,3 +13,11 @@
     background-color: bisque;
     color: black;
 }
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    background-color: brown;
+    border: 2px solid hsl(289, 13%, 32%);
+}
